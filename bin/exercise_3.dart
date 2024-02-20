@@ -11,7 +11,7 @@ void main() {
   int highestGrade = scores.last;
   print("Lowest Grade: $lowestGrade, Highest Grade: $highestGrade");
 
-  //Using where to find all the B grades, that is, all the scores between 80 and 90.
+  //Using where to find all the B grades, all the scores between 80 and 90.
   List<int> bGrades = scores
       .where((score) => score >= 80 && score <= 90)
       .toList(); // Filter scores between 80 and 90
